@@ -1,0 +1,21 @@
+//- start variables 
+@import 'fonts/fonts';
+
+//- start components
+@import 'components/carousel';
+
+//- start restart 
+@import 'restart/restart';
+
+// - Start section
+@import 'sections/header';
+@import 'sections/choose';
+@import 'sections/our';
+@import 'sections/photogalerea';
+@import 'sections/map';
+@import 'sections/scheme';
+@import 'sections/manager';
+@import 'sections/footer';
+
+//- Star Responsive
+@import 'media/responsive';

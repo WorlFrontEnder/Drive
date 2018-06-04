@@ -1,0 +1,52 @@
+@import '../variables/color';
+@import '../combination/combination';
+/*
+Start footer
+###########*/
+.footer{
+  background: url(../images/bg5.png) center top no-repeat;
+  min-height: 578px;
+}
+.footer__in{
+  @extend %widthCenter;
+  padding-top: 250px;
+}
+.logo-footer{
+  display: block;
+  float: left;
+}
+.footer__social{
+  float: right;
+  overflow: hidden;
+}
+.footer__social li{
+  display: inline-block;  
+  margin: 0 105px 0 0;
+}
+.footer__social li:last-child{
+  margin: 0;
+}
+.footer__number{
+  overflow: hidden;
+  width: 82%;
+  padding: 100px 0 0 221px;
+}
+.footer__number a{
+  text-transform: uppercase;
+  color: $color3;
+  font:32px 'Graffiti1CTT';
+  margin: 0 100px 0 0;
+}
+.photogallery__btn{
+  display: block;
+  margin: 30px auto 0;
+  width: 275px;
+  background: url(../images/btn.png) no-repeat top center;
+}
+.photogallery__btn span{
+ text-align: center;
+ color: $white;
+ font:45px 'Graffiti1CTT';
+ display: block;
+ padding: 16px 0;
+}

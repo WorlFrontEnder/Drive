@@ -1,0 +1,56 @@
+@import '../variables/color';
+
+.carousel{
+    background: url(../images/img19.png) no-repeat top right;
+    padding-bottom: 100px;
+  
+  }
+  .owl-theme .owl-nav [class*=owl-]{
+    text-indent: -999999px;
+  }
+  .owl-carousel .owl-nav .owl-prev,
+  .owl-carousel .owl-nav .owl-next {
+    background: url(../images/next.png) no-repeat !important;
+    width: 174px;
+    height: 94px;
+    float: right;
+    position: relative;
+    left: 135px;
+  }
+  .owl-carousel .owl-nav .owl-prev {
+    background: url(../images/prev.png) no-repeat !important;            
+    float: left;
+    position: relative;
+    left: -94px;
+  }
+  .carousel .item img{
+    width: auto !important;
+    float: left;
+    margin-top: 35px;
+  }
+  .carousel__content{
+    float: right;
+    max-width:700px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .carousel__name{
+    color: $color2;
+    font-size: 40px;
+    display: block;
+  }
+  .carousel__profesional{
+    color: $color2;
+    font-size: 30px;
+    display: block;
+  }
+  .carousel__content p{
+    color: $color2;
+    font-size: 30px;
+    padding: 30px 150px 0 0;
+  }
+  .owl-theme .owl-nav{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+  }

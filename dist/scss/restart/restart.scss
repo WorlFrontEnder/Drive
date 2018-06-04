@@ -1,0 +1,28 @@
+*{margin: 0; padding: 0;}
+
+html, body{
+ height: 100%;
+ font:normal 16px 'Neucha';
+ min-width: 320px;
+}
+
+a{
+  outline: none;
+  text-decoration: none;
+  }
+img{
+  outline: none;
+  max-width: 100%;
+  border:none;
+ }
+ul{
+  list-style: none;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}

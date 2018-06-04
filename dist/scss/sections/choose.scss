@@ -1,0 +1,53 @@
+@import '../variables/color';
+@import '../combination/combination';
+/*
+Start choose
+###########*/
+
+.choose{
+    background: url(../images/bg2.jpg) no-repeat top center;
+    min-height: 3148px;
+  }
+  .choose__in{
+    @extend %widthCenter2;
+  }
+  .choose__title{
+    vertical-align: top;
+    display: block;
+    text-align: center;
+    color: $color2;
+    font:60px 'Graffiti1CTT';
+    padding: 30px 0;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  .choose__title:before{
+    content: url(../images/icon11.png);
+    margin-top: 28px;
+    display: block;
+    float: left;
+  }
+  .choose__title:after{
+    content: url(../images/icon12.png);
+    margin-top: 28px;
+    display: block;
+    float: right;
+  }
+  .choose__content{
+    margin: 40px auto 0;
+    width: 100%;
+  }
+  .choose__content li{
+    display: inline-block;
+    margin-bottom: 80px;
+  }
+  .choose__content li img{
+    display: block;
+    margin: 0 auto;
+  }
+  .choose__content li p{
+    text-align: center;
+    color: $color2;
+    font: 40px 'Neucha';
+    padding-top: 10px;
+  }

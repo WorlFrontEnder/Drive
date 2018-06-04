@@ -1,0 +1,61 @@
+@import '../variables/color';
+@import '../combination/combination';
+/*
+Start our
+#########*/
+.our{
+   background: url(../images/bg3.jpg) no-repeat top center;
+   min-height: 693px;
+}
+.our__in{
+   @extend %widthCenter;
+}
+.our__title{
+   color: $white;
+   font: 60px 'Graffiti1CTT';
+   text-align: center;
+   display: block;
+   padding: 60px 0 40px;
+   text-shadow: 2px 2px 10px #d63033;
+}
+.our__content li{
+   display: inline-block;
+   width: 24%;
+   vertical-align: top;
+   margin: 0 10px 0 0;
+
+   &:last-child{
+    margin: 0;
+  }
+
+  img{
+    display: block;
+    margin: 0 auto;
+ }
+
+ span{
+   color: $white;
+   font:48px 'Neucha';
+   display: block;
+   text-align: center;
+   text-transform: uppercase;
+ }
+
+  &:first-child span{
+    padding-top: 34px;
+  }
+
+  &:nth-child(3) span{
+    padding-top: 7px;
+  }
+
+  &:last-child span{
+    padding-top: 15px;
+  }
+
+  p{
+    color: $white;
+    font:30px 'Neucha';
+    text-align: center;
+  }
+}

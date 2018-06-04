@@ -1,0 +1,27 @@
+extends layouts/template
+block title
+ title Драйв-парк
+
+block cssStyle
+ link(href="css/style.min.css", rel="stylesheet")
+ link(href="css/fonts.css" rel="stylesheet")
+ link(href="css/owl.carousel.min.css" rel="stylesheet")
+ link(href="css/owl.theme.default.min.css" rel="stylesheet")
+
+
+block body
+ body
+  include sections/header
+  include sections/choose
+  include sections/our
+  include sections/photogalerea
+  include sections/video
+  include sections/map
+  include sections/slider
+  include sections/manager
+  include sections/footer
+
+  block script
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/script.js"></script>

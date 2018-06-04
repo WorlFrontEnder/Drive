@@ -1,0 +1,29 @@
+@import '../variables/color';
+@import '../combination/combination';
+/*
+Start scheme
+###########*/
+.scheme{
+    background: url(../images/bg8.jpg) no-repeat top center;
+    min-height: 1955px;
+    margin-top: -75px;
+   }
+   .scheme__in{
+    @extend %widthCenter;
+   }
+   .scheme__title,
+   .comments__title{
+    display: block;
+    color: $color2;
+    font:60px 'Graffiti1CTT';
+    text-align: center;
+    padding: 120px 0 50px;
+   }
+   .comments__title{
+     padding: 60px 0 40px;
+   }
+   .maps{
+     display: block;
+     margin: 0 auto;
+   }
+   

@@ -1,0 +1,59 @@
+@import '../variables/color';
+@import '../combination/combination';
+/*
+Start photogallery
+################*/
+.photogallery{
+   background:url(../images/bg4.jpg) no-repeat top center;
+   min-height: 1552px;
+}
+.photogallery__in{
+   @extend %widthCenter4;
+}
+.photogallery__title{
+   color: $color2;
+   font:60px 'Graffiti1CTT';
+   display: block;
+   text-align: center;
+   padding: 150px 0 0;
+}
+ .photogallery__content{
+   margin-top: 80px;
+}
+.photogallery__content li{
+   display: inline-block;  
+   margin: 10px;
+}
+.video{
+  position: relative;
+  margin-top: -70px;
+  min-height: 780px;
+}
+.video .bg {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 843px;
+  background: url(../images/bg6.png) no-repeat center 0;
+  cursor: pointer;
+}
+.video iframe, #video-wrap {
+  display: block;
+  width: 100%;
+}
+.photogallery__btn{
+  display: block;
+  margin: 30px auto 0;
+  width: 275px;
+  background: url(../images/btn.png) no-repeat top center;
+
+    span{
+      text-align: center;
+      color: $white;
+      font:45px 'Graffiti1CTT';
+      display: block;
+      padding: 16px 0;
+     }
+  }
